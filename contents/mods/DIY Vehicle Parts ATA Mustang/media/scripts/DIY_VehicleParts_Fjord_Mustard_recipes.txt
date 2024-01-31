@@ -1,0 +1,231 @@
+module Autotsar
+{
+	imports
+	{
+		Base
+	}
+	recipe Make MustardCowlHood
+	{
+		keep WeldingMask,
+		BlowTorch=5,
+		WeldingRods=2,
+		
+		SheetMetal=4,
+		SmallSheetMetal=3,
+		EngineDoor3=1,
+		Screws=10,
+		
+		Category:DIYVehicleParts,
+		CanBeDoneFromFloor:true,
+		Result:ATAMustangHood2Item3,
+		SkillRequired:MetalWelding=4;Mechanics=2,
+		Time:600.0,
+		AnimNode:BlowTorchFloor,
+		Sound:BlowTorch,
+		NeedToBeLearn:True,
+		OnGiveXP:Recipe.OnGiveXP.MetalWelding15,
+		Prop1:BlowTorch,
+	}
+	
+	recipe Make MustardMongooseHood
+	{
+		keep WeldingMask,
+		BlowTorch=10,
+		WeldingRods=5,
+		
+		SheetMetal=5,
+		EngineDoor3=1,
+		SmallSheetMetal=5,
+		Screws=20,
+		
+		Category:DIYVehicleParts,
+		CanBeDoneFromFloor:true,
+		Result:ATAMustangHood4Item3,
+		SkillRequired:MetalWelding=5;Mechanics=2,
+		Time:600.0,
+		AnimNode:BlowTorchFloor,
+		Sound:BlowTorch,
+		NeedToBeLearn:True,
+		OnGiveXP:Recipe.OnGiveXP.MetalWelding15,
+		Prop1:BlowTorch,
+	}
+	
+	recipe Make MustardRamAirHood
+	{
+		keep WeldingMask,
+		BlowTorch=10,
+		WeldingRods=5,
+		
+		SheetMetal=5,
+		EngineDoor3=1,
+		SmallSheetMetal=5,
+		Screws=20,
+		
+		Category:DIYVehicleParts,
+		CanBeDoneFromFloor:true,
+		Result:ATAMustangHood3Item3,
+		SkillRequired:MetalWelding=5;Mechanics=2,
+		Time:600.0,
+		AnimNode:BlowTorchFloor,
+		Sound:BlowTorch,
+		NeedToBeLearn:True,
+		OnGiveXP:Recipe.OnGiveXP.MetalWelding15,
+		Prop1:BlowTorch,
+	}
+	
+	recipe Make StandartBullbar
+	{
+		keep WeldingMask,
+		BlowTorch=10,
+		WeldingRods=3,
+		
+		SheetMetal=5,
+		EngineDoor3=1,
+		SmallSheetMetal=3,
+		Screws=10,
+		
+		Category:DIYVehicleParts,
+		CanBeDoneFromFloor:true,
+		Result:ATA2.ATABullbar1Item,
+		SkillRequired:MetalWelding=4;Mechanics=2,
+		Time:600.0,
+		AnimNode:BlowTorchFloor,
+		Sound:BlowTorch,
+		NeedToBeLearn:True,
+		OnGiveXP:Recipe.OnGiveXP.MetalWelding15,
+		Prop1:BlowTorch,
+	}
+
+	recipe Make MustardPoliceBullbar
+	{
+		keep WeldingMask,
+		BlowTorch=10,
+		
+		SheetMetal=6,
+		SmallSheetMetal=2,
+		MetalBar=8,
+		MetalPipe=3,
+		Screws=15,
+		
+		Category:DIYVehicleParts,
+		CanBeDoneFromFloor:true,
+		Result:ATA2.ATABullbar2Item,
+		SkillRequired:MetalWelding=3;Mechanics=3,
+		Time:600.0,
+		AnimNode:BlowTorchFloor,
+		Sound:BlowTorch,
+		NeedToBeLearn:True,
+		OnGiveXP:Recipe.OnGiveXP.MetalWelding15,
+		Prop1:BlowTorch,
+	}		
+	
+	recipe Make MustardSpoilerLip
+	{
+		keep WeldingMask,
+		BlowTorch=10,
+		
+		SheetMetal=5,
+		SmallSheetMetal=3,
+		WeldingRods=5,
+		Screws=10,
+		
+		Category:DIYVehicleParts,
+		CanBeDoneFromFloor:true,
+		Result:ATA2.ATASpoilerFrontItem,
+		SkillRequired:MetalWelding=3;Mechanics=3,
+		Time:600.0,
+		AnimNode:BlowTorchFloor,
+		Sound:BlowTorch,
+		NeedToBeLearn:True,
+		OnGiveXP:Recipe.OnGiveXP.MetalWelding15,
+		Prop1:BlowTorch,
+	}
+	
+	recipe Make MustardHighSpoiler
+	{
+		keep WeldingMask,
+		BlowTorch=10,
+		
+		SheetMetal=10,
+		SmallSheetMetal=5,
+		WeldingRods=5,
+		Screws=20,
+		
+		Category:DIYVehicleParts,
+		CanBeDoneFromFloor:true,
+		Result:ATA2.ATASpoilerRear2Item,
+		SkillRequired:MetalWelding=5;Mechanics=3,
+		Time:600.0,
+		AnimNode:BlowTorchFloor,
+		Sound:BlowTorch,
+		NeedToBeLearn:True,
+		OnGiveXP:Recipe.OnGiveXP.MetalWelding15,
+		Prop1:BlowTorch,
+	}		
+
+	recipe Make MustardStandartSpoiler
+	{
+		keep WeldingMask,
+		BlowTorch=10,
+		
+		SheetMetal=6,
+		SmallSheetMetal=3,
+		WeldingRods=3,
+		Screws=15,
+		
+		Category:DIYVehicleParts,
+		CanBeDoneFromFloor:true,
+		Result:ATA2.ATASpoilerRear1Item,
+		SkillRequired:MetalWelding=5;Mechanics=3,
+		Time:600.0,
+		AnimNode:BlowTorchFloor,
+		Sound:BlowTorch,
+		NeedToBeLearn:True,
+		OnGiveXP:Recipe.OnGiveXP.MetalWelding15,
+		Prop1:BlowTorch,
+	}
+	
+	recipe Make MustardWideFenders
+	{
+		keep WeldingMask,
+		BlowTorch=10,
+		
+		SheetMetal=10,
+		SmallSheetMetal=6,
+		WeldingRods=5,
+		Screws=20,
+		
+		Category:DIYVehicleParts,
+		CanBeDoneFromFloor:true,
+		Result:ATA2.ATAFendersWideItem,
+		SkillRequired:MetalWelding=4;Mechanics=3,
+		Time:600.0,
+		AnimNode:BlowTorchFloor,
+		Sound:BlowTorch,
+		NeedToBeLearn:True,
+		OnGiveXP:Recipe.OnGiveXP.MetalWelding15,
+		Prop1:BlowTorch,
+	}
+	
+	recipe Make MustardSideSkirts
+	{
+		keep WeldingMask,
+		BlowTorch=10,
+		
+		MetalBar=4,
+		MetalPipe=4,
+		Screws=10,
+		WeldingRods=3,
+		
+		Category:DIYVehicleParts,
+		CanBeDoneFromFloor:true,
+		Result:ATA2.ATASkirtsSideItem,
+		SkillRequired:MetalWelding=3;Mechanics=3,
+		Time:600.0,
+		AnimNode:BlowTorchFloor,
+		Sound:BlowTorch,
+		NeedToBeLearn:True,
+		OnGiveXP:Recipe.OnGiveXP.MetalWelding15,
+		Prop1:BlowTorch,
+	}	
+}

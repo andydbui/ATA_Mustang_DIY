@@ -1,0 +1,12 @@
+Recipes_EN = {
+	Recipe_Make_MustardCowlHood = "Make ATA Mustard Cow Hood",
+	Recipe_Make_MustardMongooseHood = "Make ATA Mustard Mongoose Hood",
+	Recipe_Make_MustardRamAirHood = "Make ATA Mustard Ram Air Hood",
+	Recipe_Make_MustardStandartBullbar = "Make ATA Mustard Standart Bullbar",
+	Recipe_Make_MustardPoliceBullbar = "Make ATA Mustard Police Bullbar",
+	Recipe_Make_MustardStandartSpoiler = "Make ATA Mustard Standard Spoiler",
+	Recipe_Make_MustardSpoilerLip = "Make ATA Mustard Spoiler Lip",
+	Recipe_Make_MustardHighSpoiler = "Make ATA Mustard High Spoiler",
+	Recipe_Make_MustardWideFenders = "Make ATA Mustard Wide Fenders",
+	Recipe_Make_MustardSideSkirts = "Make ATA Mustard Side Skirts",
+}

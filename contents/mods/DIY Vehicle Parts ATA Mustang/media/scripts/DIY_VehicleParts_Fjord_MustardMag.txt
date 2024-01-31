@@ -1,0 +1,18 @@
+module Autotsar
+{
+	imports
+	{
+		Base
+	}
+	item DIY_VehicleParts_Fjord_MustardMag {
+		Weight = 0.1,
+		Type = Literature,
+		DisplayName = DIY_VehicleParts_Fjord_MustardMag,
+		Icon = DIY_VehicleParts_Fjord_MustardMag,
+		TeachedRecipes =Make MustardCowlHood;Make MustardMongooseHood;Make MustardRamAirHood;Make StandartBullbar;Make MustardPoliceBullbar;Make MustardSpoilerLip;Make MustardHighSpoiler;Make MustardStandartSpoiler;Make MustardWideFenders;Make MustardSideSkirts,
+        ReplaceOnUse = DIY_VehicleParts_Fjord_MustardMag,
+		StaticModel = Magazine,
+        WorldStaticModel = MagazineMec2Ground,
+		DisplayCategory = SkillBook,
+	}
+}
